@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object7",
+  "%Name":"Next_Button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object7",
+  "name":"Next_Button",
   "overriddenProperties":[],
   "parent":{
     "name":"Web of Lies",

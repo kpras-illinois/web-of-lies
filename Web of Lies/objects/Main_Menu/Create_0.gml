@@ -1,9 +1,7 @@
 var menu_items = ["Start", "Options", "Credits", "obj_dialogue"];
 var menu_functions = [
 	function() {
-		with (asset_get_index("Testing_Text")) {
-			room_goto(asset_get_index("Menu_Room"));
-		}
+		room_goto(asset_get_index("Menu_Room"));
 	},
 	function() {
 		with (asset_get_index("Options_Menu")) {
