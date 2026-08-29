@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Menu_Abstract",
+  "%Name":"Options_Menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Menu_Abstract",
+  "name":"Options_Menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Web of Lies",

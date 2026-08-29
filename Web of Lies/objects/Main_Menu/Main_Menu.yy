@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Button_Test",
+  "%Name":"Main_Menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Button_Test",
+  "name":"Main_Menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Testing",
-    "path":"folders/Testing.yy",
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
   },
-  "parentObjectId":{
-    "name":"Text_Button",
-    "path":"objects/Text_Button/Text_Button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

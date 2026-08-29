@@ -6,8 +6,17 @@ var menu_functions = [
 		}
 	},
 	function() {
-		with (asset_get_index("Testing_Text")) {
-			text = "Options Button Clicked";
+		with (asset_get_index("Options_Menu")) {
+			for (var i = 0; i < array_length(button_ids); i++) {
+				with (button_ids[i]) {
+					visible = true;
+				}
+			}
+		}
+		with (asset_get_index("Main_Menu")) {
+			for (var i = 0; i < array_length(button_ids); i++) {
+				instance_deactivate_object(button_ids[i]);
+			}
 		}
 	},
 	function() {
@@ -30,8 +39,12 @@ var menu_height = 50;
 
 var menu_margin = 5;
 
+button_ids = [];
+
 for (var i = 0; i < array_length(menu_items); i++) {
 	struct = {
+		visible : true,
+		
 		button_width : menu_width,
 		button_height : menu_height,
 		button_margin : menu_margin,
@@ -39,5 +52,5 @@ for (var i = 0; i < array_length(menu_items); i++) {
 		button_text : menu_items[i],
 		button_event : menu_functions[i]
 	}
-	instance_create_layer(x, y + button_spacing*i, "Instances", asset_get_index("Text_Button"), struct);
+	array_push(button_ids, instance_create_layer(x, y + button_spacing*i, "Instances", asset_get_index("Text_Button"), struct));
 }

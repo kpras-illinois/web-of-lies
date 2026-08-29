@@ -9,8 +9,8 @@
   "name":"Testing_Text",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Testing",
+    "path":"folders/Testing.yy",
   },
   "parentObjectId":null,
   "persistent":false,
