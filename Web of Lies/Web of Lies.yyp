@@ -22,14 +22,17 @@
     {"id":{"name":"Button_Test","path":"objects/Button_Test/Button_Test.yy",},},
     {"id":{"name":"Menu_Abstract","path":"objects/Menu_Abstract/Menu_Abstract.yy",},},
     {"id":{"name":"Testing_Text","path":"objects/Testing_Text/Testing_Text.yy",},},
-    {"id":{"name":"Text_Button_Abstract","path":"objects/Text_Button_Abstract/Text_Button_Abstract.yy",},},
+    {"id":{"name":"Text_Button","path":"objects/Text_Button/Text_Button.yy",},},
+    {"id":{"name":"Menu_Room","path":"rooms/Menu_Room/Menu_Room.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Button_Sprite_Temp","path":"sprites/Button_Sprite_Temp/Button_Sprite_Temp.yy",},},
+    {"id":{"name":"Spider_Menu","path":"sprites/Spider_Menu/Spider_Menu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Menu_Room","path":"rooms/Menu_Room/Menu_Room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

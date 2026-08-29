@@ -12,8 +12,8 @@
     "path":"Web of Lies.yyp",
   },
   "parentObjectId":{
-    "name":"Text_Button_Abstract",
-    "path":"objects/Text_Button_Abstract/Text_Button_Abstract.yy",
+    "name":"Text_Button",
+    "path":"objects/Text_Button/Text_Button.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
