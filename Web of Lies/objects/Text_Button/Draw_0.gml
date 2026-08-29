@@ -7,4 +7,4 @@ draw_set_valign(fa_middle);
 draw_set_color(c_black);
 
 x_center = 
-draw_text((2*x+button_width)/2, (2*y-button_height)/2, button_text);
+draw_text_ext((2*x+button_width)/2, (2*y-button_height)/2, button_text, -1, button_width - 2 * button_margin);
