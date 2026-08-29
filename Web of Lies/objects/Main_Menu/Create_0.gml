@@ -1,4 +1,4 @@
-var menu_items = ["Start", "Options", "Credits", "Too Long to Fit"];
+var menu_items = ["Start", "Options", "Credits", "obj_dialogue"];
 var menu_functions = [
 	function() {
 		with (asset_get_index("Testing_Text")) {
@@ -20,16 +20,16 @@ var menu_functions = [
 		}
 	},
 	function() {
-		with (asset_get_index("Testing_Text")) {
+		with (asset_get_index("Dialogue_Box")) {
 			text = "Credits Button Clicked";
 		}
 	},
 	function() {
-		with (asset_get_index("Testing_Text")) {
+		with (asset_get_index("obj_dialogue")) {
 			text = "Long Button Clicked";
 		}
 	}
-		
+
 ];
 
 var button_spacing = 64;
