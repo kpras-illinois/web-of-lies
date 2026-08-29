@@ -2,7 +2,7 @@ var menu_items = ["Start", "Options", "Credits", "Too Long to Fit"];
 var menu_functions = [
 	function() {
 		with (asset_get_index("Testing_Text")) {
-			text = "Start Button Clicked";
+			room_goto(asset_get_index("Menu_Room"));
 		}
 	},
 	function() {
