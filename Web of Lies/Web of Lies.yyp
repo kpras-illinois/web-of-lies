@@ -12,7 +12,7 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Suspects/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Suspects","folderPath":"folders/Suspects.yy","name":"Suspects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caterpillar","folderPath":"folders/Suspects/Caterpillar.yy","name":"Caterpillar","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fly","folderPath":"folders/Suspects/Fly.yy","name":"Fly","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Web of Lies",
   "resources":[
@@ -63,6 +63,7 @@
     {"id":{"name":"Menu_Room","path":"rooms/Menu_Room/Menu_Room.yy",},},
     {"id":{"name":"Mosquito_Cutscene","path":"rooms/Mosquito_Cutscene/Mosquito_Cutscene.yy",},},
     {"id":{"name":"Moth_Cutscene","path":"rooms/Moth_Cutscene/Moth_Cutscene.yy",},},
+    {"id":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
     {"id":{"name":"Stickbug_Cutscene","path":"rooms/Stickbug_Cutscene/Stickbug_Cutscene.yy",},},
     {"id":{"name":"Caterpillar_Voice","path":"sounds/Caterpillar_Voice/Caterpillar_Voice.yy",},},
     {"id":{"name":"Fly_Voice","path":"sounds/Fly_Voice/Fly_Voice.yy",},},
@@ -113,6 +114,7 @@
     {"roomId":{"name":"Mosquito_Cutscene","path":"rooms/Mosquito_Cutscene/Mosquito_Cutscene.yy",},},
     {"roomId":{"name":"Moth_Cutscene","path":"rooms/Moth_Cutscene/Moth_Cutscene.yy",},},
     {"roomId":{"name":"Stickbug_Cutscene","path":"rooms/Stickbug_Cutscene/Stickbug_Cutscene.yy",},},
+    {"roomId":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

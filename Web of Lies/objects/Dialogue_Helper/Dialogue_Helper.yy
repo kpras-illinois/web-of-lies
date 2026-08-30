@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Dialogue System",
-    "path":"folders/Dialogue System.yy",
+    "path":"folders/Suspects/Dialogue System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

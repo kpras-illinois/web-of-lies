@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dialogue System",
-    "path":"folders/Dialogue System.yy",
+    "path":"folders/Suspects/Dialogue System.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
