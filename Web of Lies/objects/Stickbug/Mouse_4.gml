@@ -1,5 +1,5 @@
 if (room == asset_get_index("Main_Room")) {
-	with (asset_get_index("Dialogue_Helper")) {
+	with (asset_get_index("Dialogue_Helper_Question")) {
 		create_dialogue_box([
 		    [ "Wilber E. Bose" , "Why are you red?"],
 
@@ -39,11 +39,23 @@ if (room == asset_get_index("Main_Room")) {
 
 [ "Professor Oak" , "I only discovered him when he was an honorary member of my university’s grant department. I wouldn’t have talked to him if he didn’t pull my funding and treated researchers like crap."],
 
-[ "Wilber E. Bose" , "I understand now."]
+[ "Wilber E. Bose" , "I understand now."],
+
+[ "Wilber E. Bose" , "Why might Professor Oak kill John?" ]
 
 		]);
 	}
+	global.question_index = 0;
+	global.question_menus = [asset_get_index("Stickbug_Motive_Menu"), asset_get_index("Stickbug_Evidence_Menu")];
 }
 if (room == asset_get_index("Conviction_Room")) {
-	room_goto(asset_get_index("Stickbug_Cutscene"));
+	if (room == asset_get_index("Conviction_Room")) {
+	if (global.mosquito_convictable) {
+		room_goto(asset_get_index("Stickbug_Cutscene"));
+	} else {
+		with (asset_get_index("Dialogue_Helper")) {
+			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Professor Oak."]]);
+		}
+	}
+}
 }

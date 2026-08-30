@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Main_Sound_Helper",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Menu_Helper",
+  "eventList":[],
   "managed":true,
-  "name":"Main_Sound_Helper",
+  "name":"Menu_Helper",
   "overriddenProperties":[],
   "parent":{
     "name":"Web of Lies",

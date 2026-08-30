@@ -1,5 +1,5 @@
 if (room = asset_get_index("Main_Room")) {
-	with (asset_get_index("Dialogue_Helper")) {
+	with (asset_get_index("Dialogue_Helper_Question")) {
 		create_dialogue_box([
 		    [ "Wilber E. Bose", "So... what's with the blood?" ],
 
@@ -229,10 +229,22 @@ if (room = asset_get_index("Main_Room")) {
 
 [ "Wayne Mothman", "..." ],
 
-[ "Wilber E. Bose", "Didn't you?" ]
+[ "Wilber E. Bose", "Didn't you?" ],
+
+[ "Wilber E. Bose", "Why did Wayne Mothman want B Tell dead?" ]
 		]);
-	}
+	}	
+	global.question_index = 0;
+	global.question_menus = [asset_get_index("Moth_Motive_Menu"), asset_get_index("Moth_Evidence_Menu")];
 }
 if (room == asset_get_index("Conviction_Room")) {
-	room_goto(asset_get_index("Moth_Cutscene"));
+	if (room == asset_get_index("Conviction_Room")) {
+	if (global.mosquito_convictable) {
+		room_goto(asset_get_index("Moth_Cutscene"));
+	} else {
+		with (asset_get_index("Dialogue_Helper")) {
+			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Wayne Mothman."]]);
+		}
+	}
+}
 }

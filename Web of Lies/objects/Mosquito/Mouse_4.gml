@@ -1,5 +1,5 @@
 if (room == asset_get_index("Main_Room")) {
-	with (asset_get_index("Dialogue_Helper")) {
+	with (asset_get_index("Dialogue_Helper_Question")) {
 		create_dialogue_box([
 		    ["Wilber E. Bose" , "Why are you covered in blood?"],
 
@@ -27,11 +27,21 @@ if (room == asset_get_index("Main_Room")) {
 
 ["Wilber E. Bose" , "How did the show go?"],
 
-["Lola Sang" , "It was swell! But, some rude people like Mr. Bose refuse to tip."]
+["Lola Sang" , "It was swell! But, some rude people like Mr. Bose refuse to tip."],
+
+["Wilber E. Bose", "Why might Lola Sang want John dead?"]
 
 		]);
 	}
+	global.question_index = 0;
+	global.question_menus = [asset_get_index("Mosquito_Motive_Menu"), asset_get_index("Mosquito_Evidence_Menu")];
 }
 if (room == asset_get_index("Conviction_Room")) {
-	room_goto(asset_get_index("Mosquito_Cutscene"));
+	if (global.mosquito_convictable) {
+		room_goto(asset_get_index("Mosquito_Cutscene"));
+	} else {
+		with (asset_get_index("Dialogue_Helper")) {
+			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Lola Sang."]]);
+		}
+	}
 }

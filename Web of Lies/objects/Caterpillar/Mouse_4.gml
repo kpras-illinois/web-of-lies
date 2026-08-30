@@ -1,5 +1,5 @@
 if (room == asset_get_index("Main_Room")) {
-	with (asset_get_index("Dialogue_Helper")) {
+	with (asset_get_index("Dialogue_Helper_Question")) {
 		create_dialogue_box([
 		    [ "Wilber E. Bose", "I'm going to ask you a couple of questions." ],
 
@@ -117,11 +117,24 @@ if (room == asset_get_index("Main_Room")) {
 
     [ "Wilber E. Bose", "Wait. Is he like a banker, or a coroner, or something?" ],
 
-    [ "Harry Grub", "He's the boss." ]
+    [ "Harry Grub", "He's the boss." ],
+	
+	[ "Wilber E. Bose", "Why might Harry have killed B Tell?" ]
 
 		]);
 	}
+	
+	global.question_index = 0;
+	global.question_menus = [asset_get_index("Caterpillar_Motive_Menu"), asset_get_index("Caterpillar_Evidence_Menu")];
 }
 if (room == asset_get_index("Conviction_Room")) {
-	room_goto(asset_get_index("Caterpillar_Cutscene"));
+	if (room == asset_get_index("Conviction_Room")) {
+	if (global.mosquito_convictable) {
+		room_goto(asset_get_index("Mosquito_Cutscene"));
+	} else {
+		with (asset_get_index("Dialogue_Helper")) {
+			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Lola Sang."]]);
+		}
+	}
+}
 }

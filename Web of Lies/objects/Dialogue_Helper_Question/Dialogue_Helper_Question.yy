@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Main_Sound_Helper",
+  "%Name":"Dialogue_Helper_Question",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Main_Sound_Helper",
+  "name":"Dialogue_Helper_Question",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

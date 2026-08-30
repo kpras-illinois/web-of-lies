@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Main_Sound_Helper",
+  "%Name":"Mosquito_Evidence_Menu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Main_Sound_Helper",
+  "name":"Mosquito_Evidence_Menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Mosquito",
+    "path":"folders/Suspects/Mosquito.yy",
   },
   "parentObjectId":null,
   "persistent":false,

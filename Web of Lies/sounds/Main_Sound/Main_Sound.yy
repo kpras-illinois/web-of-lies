@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Main_Sound",
+  "audioGroupId":{
+    "name":"Music",
+    "path":"audiogroups/Music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":80.0,
+  "exportDir":"",
+  "name":"Main_Sound",
+  "parent":{
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Main_Sound.wav",
+  "volume":1.0,
+}

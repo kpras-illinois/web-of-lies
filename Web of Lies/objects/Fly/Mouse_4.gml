@@ -1,5 +1,5 @@
 if (room == asset_get_index("Main_Room")) {
-	with (asset_get_index("Dialogue_Helper")) {
+	with (asset_get_index("Dialogue_Helper_Question")) {
 		create_dialogue_box([
 		    [ "Wilber E. Bose", "So... why are you bloody all over?" ],
 [ "Mart McFly", "I'm the mortician. It's my job to check dead bzz... bodies. Bzz bzz... I just finished sending away a dead body. Bzz." ],
@@ -47,10 +47,22 @@ if (room == asset_get_index("Main_Room")) {
 [ "Mart McFly", "Of course." ],
 [ "Mart McFly", "Oh, how I loved that body. The holes. The stains. The bruises. Bzz bzz..." ],
 [ "Mart McFly", "It was a pity parting with it." ],
-[ "Wilber E. Bose", "...Right." ]
+[ "Wilber E. Bose", "...Right." ],
+[ "Wilber E. Bose", "Why might Mart have wanted B Tell dead?" ]
 		]);
 	}
+	
+	global.question_index = 0;
+	global.question_menus = [asset_get_index("Fly_Motive_Menu"), asset_get_index("Fly_Evidence_Menu")];
 }
 if (room == asset_get_index("Conviction_Room")) {
-	room_goto(asset_get_index("Fly_Cutscene"));
+	if (room == asset_get_index("Conviction_Room")) {
+	if (global.mosquito_convictable) {
+		room_goto(asset_get_index("Fly_Cutscene"));
+	} else {
+		with (asset_get_index("Dialogue_Helper")) {
+			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Mart McFly."]]);
+		}
+	}
+}
 }

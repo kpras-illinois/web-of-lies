@@ -1,6 +1,6 @@
 event_inherited();
 
-button_text = "Yes";
+button_text = "Confirm";
 
 button_event = function() {
 	with (asset_get_index("Dialogue_Box")) {
