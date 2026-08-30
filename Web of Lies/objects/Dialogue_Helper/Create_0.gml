@@ -32,12 +32,12 @@ create_options = function(new_options, new_options_dialogue, new_options_dialogu
 	new_dialogue_array = new_options_dialogue;
 	new_event_array = new_options_dialogue_finished;
 	for (var i = 0; i < array_length(new_options_dialogue); i++) {
-		index = i;
+		var index = i;
 		new_function = function() {
 			create_dialogue_box(new_dialogue_array[index], new_event_array[index]);
 			with (asset_get_index("Menu_Abstract")) {
-				for (var i = 0; i < array_length(button_ids); i++) {
-					instance_destroy(button_ids[i]);
+				for (var f = 0; f < array_length(button_ids); f++) {
+					instance_destroy(button_ids[f]);
 				}
 				instance_destroy(asset_get_index("Menu_Abstract"));
 			}
