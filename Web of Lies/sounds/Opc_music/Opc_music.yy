@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Opc_music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":149.60327,
+  "exportDir":"",
+  "name":"Opc_music",
+  "parent":{
+    "name":"Op_Cutscenee",
+    "path":"folders/Op_Cutscenee.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Opc_music.mp3",
+  "volume":1.0,
+}

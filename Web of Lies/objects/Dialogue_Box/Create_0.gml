@@ -1,11 +1,10 @@
 dialogue = global.current_dialogue;
-event_dialogue_finished = global.dialogue_finished_event;
 
 dialogue_index = 0;
 
 play_character_voice = function() {
 	audio_group_stop_all(global.speech_groupid);
-	if (dialogue[dialogue_index][0] == "Wayne Mothman") {
+	if (dialogue[dialogue_index][0] == "Wayne") {
 		audio_play_sound(asset_get_index("Moth_Voice"), 0, false);
 	}
 	if (dialogue[dialogue_index][0] == "Harry Grub") {

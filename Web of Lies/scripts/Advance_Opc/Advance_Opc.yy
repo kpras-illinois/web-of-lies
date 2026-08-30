@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Advance_Opc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Advance_Opc",
+  "parent":{
+    "name":"Op_Cutscenee",
+    "path":"folders/Op_Cutscenee.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

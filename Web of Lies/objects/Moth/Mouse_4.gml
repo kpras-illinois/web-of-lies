@@ -232,6 +232,10 @@ if (room = asset_get_index("Main_Room")) {
 [ "Wilber E. Bose", "Didn't you?" ],
 
 [ "Wilber E. Bose", "Why did Wayne Mothman want B Tell dead?" ]
+		    ["Detective", "Why are you bloody?"],
+		    ["Wayne", "I got into a little conflict."],
+		    ["Detective", "With who?"],
+		    ["Wayne", "I'd rather not say."]
 		]);
 	}	
 	global.question_index = 0;
