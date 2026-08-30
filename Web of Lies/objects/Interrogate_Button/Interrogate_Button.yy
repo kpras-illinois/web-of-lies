@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Mosquito",
+  "%Name":"Interrogate_Button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Mosquito",
+  "name":"Interrogate_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mosquito",
-    "path":"folders/Suspects/Mosquito.yy",
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Text_Button",
+    "path":"objects/Text_Button/Text_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Temp_Mosquito_Sprite",
-    "path":"sprites/Temp_Mosquito_Sprite/Temp_Mosquito_Sprite.yy",
+    "name":"Button_Sprite",
+    "path":"sprites/Button_Sprite/Button_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

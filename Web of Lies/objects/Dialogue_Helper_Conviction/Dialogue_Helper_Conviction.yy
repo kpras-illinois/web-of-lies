@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Mosquito",
+  "%Name":"Dialogue_Helper_Conviction",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Mosquito",
+  "name":"Dialogue_Helper_Conviction",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mosquito",
-    "path":"folders/Suspects/Mosquito.yy",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Temp_Mosquito_Sprite",
-    "path":"sprites/Temp_Mosquito_Sprite/Temp_Mosquito_Sprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

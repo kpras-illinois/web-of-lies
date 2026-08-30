@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Mosquito",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object18",
+  "eventList":[],
   "managed":true,
-  "name":"Mosquito",
+  "name":"Object18",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mosquito",
-    "path":"folders/Suspects/Mosquito.yy",
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Temp_Mosquito_Sprite",
-    "path":"sprites/Temp_Mosquito_Sprite/Temp_Mosquito_Sprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
