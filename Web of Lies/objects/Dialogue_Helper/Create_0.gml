@@ -33,7 +33,7 @@ create_options = function(new_options, new_options_dialogue, new_options_dialogu
 	new_event_array = new_options_dialogue_finished;
 	for (var i = 0; i < array_length(new_options_dialogue); i++) {
 		var option_index = i;
-		
+		//this is a comment to test git commit
 		new_function = function() {
 			create_dialogue_box(new_dialogue_array[option_index], new_event_array[option_index]);
 			with (asset_get_index("Menu_Abstract")) {
