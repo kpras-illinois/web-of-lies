@@ -8,8 +8,8 @@
   "name":"Next_Button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
   "parentObjectId":{
     "name":"Text_Button",
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Button_Sprite",
+    "path":"sprites/Button_Sprite/Button_Sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Spider_Voice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.0044671,
+  "exportDir":"",
+  "name":"Spider_Voice",
+  "parent":{
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Spider_Voice.wav",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Moth_Voice",
+  "audioGroupId":{
+    "name":"Speech",
+    "path":"audiogroups/Speech",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.3973242,
+  "exportDir":"",
+  "name":"Moth_Voice",
+  "parent":{
+    "name":"Moth",
+    "path":"folders/Suspects/Moth.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Moth_Voice.wav",
+  "volume":1.0,
+}

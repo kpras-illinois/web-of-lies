@@ -9,8 +9,8 @@
   "name":"Dialogue_Box",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Dialogue System",
+    "path":"folders/Dialogue System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Dialogue_Box_Sprite",
+    "path":"sprites/Dialogue_Box_Sprite/Dialogue_Box_Sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

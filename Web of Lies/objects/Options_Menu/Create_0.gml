@@ -24,22 +24,13 @@ var menu_functions = [
 		
 ];
 
-var button_spacing = 64;
-
-var menu_width = 100;
-var menu_height = 50;
-
-var menu_margin = 5;
+var button_spacing = 72;
 
 button_ids = [];
 
 for (var i = 0; i < array_length(menu_items); i++) {
 	struct = {
 		visible : false,
-		
-		button_width : menu_width,
-		button_height : menu_height,
-		button_margin : menu_margin,
 
 		button_text : menu_items[i],
 		button_event : menu_functions[i]

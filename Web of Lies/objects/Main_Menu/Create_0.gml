@@ -30,12 +30,8 @@ var menu_functions = [
 
 ];
 
-var button_spacing = 64;
+var button_spacing = 72;
 
-var menu_width = 100;
-var menu_height = 50;
-
-var menu_margin = 5;
 
 button_ids = [];
 
@@ -43,10 +39,9 @@ for (var i = 0; i < array_length(menu_items); i++) {
 	struct = {
 		visible : true,
 		
-		button_width : menu_width,
-		button_height : menu_height,
-		button_margin : menu_margin,
-
+		button_width : 174,
+		button_height : 63,
+		
 		button_text : menu_items[i],
 		button_event : menu_functions[i]
 	}

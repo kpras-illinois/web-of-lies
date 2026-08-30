@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Caterpillar_Voice",
+  "audioGroupId":{
+    "name":"Speech",
+    "path":"audiogroups/Speech",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.75,
+  "exportDir":"",
+  "name":"Caterpillar_Voice",
+  "parent":{
+    "name":"Caterpillar",
+    "path":"folders/Suspects/Caterpillar.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Caterpillar_Voice.wav",
+  "volume":1.0,
+}

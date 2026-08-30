@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialogue",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Caterpillar",
+  "eventList":[],
   "managed":true,
-  "name":"obj_dialogue",
+  "name":"Caterpillar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Web of Lies",
-    "path":"Web of Lies.yyp",
+    "name":"Caterpillar",
+    "path":"folders/Suspects/Caterpillar.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Temp_Caterpillar_Sprite",
+    "path":"sprites/Temp_Caterpillar_Sprite/Temp_Caterpillar_Sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
