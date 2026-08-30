@@ -1,3 +1,4 @@
+
 function Advance_Opc(){
  image = 1 - image;
     Switch++;    
@@ -14,4 +15,3 @@ function Advance_Opc(){
     }
     alarm[0] = room_speed * 0.5;
 }
-//comment
