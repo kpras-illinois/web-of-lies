@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Fly_Voice",
+  "%Name":"Stickbug_Voice",
   "audioGroupId":{
     "name":"Speech",
     "path":"audiogroups/Speech",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.4196372,
+  "duration":1.2098186,
   "exportDir":"",
-  "name":"Fly_Voice",
+  "name":"Stickbug_Voice",
   "parent":{
-    "name":"Fly",
-    "path":"folders/Suspects/Fly.yy",
+    "name":"Stickbug",
+    "path":"folders/Suspects/Stickbug.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Fly_Voice.wav",
+  "soundFile":"Stickbug_Voice.wav",
   "volume":1.0,
 }

@@ -2,15 +2,15 @@
   "$GMSound":"v2",
   "%Name":"Mosquito_Voice",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Speech",
+    "path":"audiogroups/Speech",
   },
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":1.3794785,
   "exportDir":"",
   "name":"Mosquito_Voice",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"",
+  "soundFile":"Mosquito_Voice.wav",
   "volume":1.0,
 }

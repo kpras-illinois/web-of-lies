@@ -1,26 +1,28 @@
-dialogue = [
-    ["Detective", "Why are you bloody?"],
-    ["Wayne", "I got into a little conflict."],
-    ["Detective", "With who?"],
-    ["Wayne", "I'd rather not say."]
-];
+dialogue = global.current_dialogue;
 
 dialogue_index = 0;
 
-dialogue_update = function() {
-	if (dialogue_index >= array_length(dialogue)) {
-		audio_group_stop_all(global.speech_groupid);
-		instance_destroy(asset_get_index("Dialogue_Box"));
-		instance_deactivate_object(asset_get_index("Next_Button"));
-	} else {
-		audio_group_stop_all(global.speech_groupid);
-		if (dialogue[dialogue_index][0] == "Wayne") {
-			audio_play_sound(asset_get_index("Moth_Speech"), 0, false);
-		} else {
-			audio_play_sound(asset_get_index("Caterpillar_Speech"), 0, false);
-		}
+play_character_voice = function() {
+	audio_group_stop_all(global.speech_groupid);
+	if (dialogue[dialogue_index][0] == "Wayne") {
+		audio_play_sound(asset_get_index("Moth_Voice"), 0, false);
 	}
-	dialogue_index++;
+	if (dialogue[dialogue_index][0] == "Harry Grub") {
+		audio_play_sound(asset_get_index("Caterpillar_Voice"), 0, false);
+	}
+	if (dialogue[dialogue_index][0] == "Lola Sang") {
+		audio_play_sound(asset_get_index("Mosquito_Voice"), 0, false);
+	}
+	if (dialogue[dialogue_index][0] == "Professor Oak") {
+		audio_play_sound(asset_get_index("Stickbug_Voice"), 0, false);
+	}
+	if (dialogue[dialogue_index][0] == "Mart McFly") {
+		audio_play_sound(asset_get_index("Fly_Voice"), 0, false);
+	}
+	if (dialogue[dialogue_index][0] == "Detective" ||
+		dialogue[dialogue_index][0] == "Wilber E. Bose") {
+		audio_play_sound(asset_get_index("Spider_Voice"), 0, false);
+	}
 }
 
-dialogue_update();
+play_character_voice();

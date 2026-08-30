@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Caterpillar",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Stickbug",
+  "eventList":[],
   "managed":true,
-  "name":"Caterpillar",
+  "name":"Stickbug",
   "overriddenProperties":[],
   "parent":{
-    "name":"Caterpillar",
-    "path":"folders/Suspects/Caterpillar.yy",
+    "name":"Stickbug",
+    "path":"folders/Suspects/Stickbug.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Temp_Caterpillar_Sprite",
-    "path":"sprites/Temp_Caterpillar_Sprite/Temp_Caterpillar_Sprite.yy",
+    "name":"Temp_Stickbug_Sprite",
+    "path":"sprites/Temp_Stickbug_Sprite/Temp_Stickbug_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

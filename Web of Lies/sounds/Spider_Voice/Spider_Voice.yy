@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"Spider_Voice",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Speech",
+    "path":"audiogroups/Speech",
   },
   "bitDepth":1,
   "channelFormat":0,
