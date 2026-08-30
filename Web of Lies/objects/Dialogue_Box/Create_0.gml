@@ -1,4 +1,5 @@
 dialogue = global.current_dialogue;
+event_dialogue_finished = global.dialogue_finished_event;
 
 dialogue_index = 0;
 
