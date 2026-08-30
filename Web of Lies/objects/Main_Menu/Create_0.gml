@@ -30,7 +30,10 @@ var menu_functions = [
 
 ];
 
-var button_ids = [];
+var button_spacing = 72;
+
+
+button_ids = [];
 
 for (var i = 0; i < array_length(menu_items); i++) {
 	struct = {
@@ -42,5 +45,5 @@ for (var i = 0; i < array_length(menu_items); i++) {
 		button_text : menu_items[i],
 		button_event : menu_functions[i]
 	}
-	array_push(button_ids, instance_create_layer(x, y + 72*i, "Instances", asset_get_index("Text_Button"), struct));
+	array_push(button_ids, instance_create_layer(x, y + button_spacing*i, "Instances", asset_get_index("Text_Button"), struct));
 }
