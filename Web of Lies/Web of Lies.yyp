@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Web of Lies",
   "resources":[
@@ -63,9 +63,9 @@
     {"id":{"name":"Object18","path":"objects/Object18/Object18.yy",},},
     {"id":{"name":"Options_Menu","path":"objects/Options_Menu/Options_Menu.yy",},},
     {"id":{"name":"Start_Button","path":"objects/Start_Button/Start_Button.yy",},},
+    {"id":{"name":"States","path":"objects/States/States.yy",},},
     {"id":{"name":"Stickbug_Evidence_Menu","path":"objects/Stickbug_Evidence_Menu/Stickbug_Evidence_Menu.yy",},},
     {"id":{"name":"Stickbug_Motive_Menu","path":"objects/Stickbug_Motive_Menu/Stickbug_Motive_Menu.yy",},},
-    {"id":{"name":"States","path":"objects/States/States.yy",},},
     {"id":{"name":"Stickbug","path":"objects/Stickbug/Stickbug.yy",},},
     {"id":{"name":"Testing_Text","path":"objects/Testing_Text/Testing_Text.yy",},},
     {"id":{"name":"Text_Button","path":"objects/Text_Button/Text_Button.yy",},},
