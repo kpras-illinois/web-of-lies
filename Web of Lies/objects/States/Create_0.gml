@@ -1,0 +1,34 @@
+enum FLY_STATE
+{
+	IDLE,
+	SELECT,
+	SPEAK
+}
+
+enum STICK_STATE
+{
+	IDLE,
+	SELECT,
+	SPEAK
+}
+
+enum CATER_STATE
+{
+	IDLE,
+	SELECT,
+	SPEAK
+}
+
+enum MOSQ_STATE
+{
+	IDLE,
+	SELECT,
+	SPEAK
+}
+
+enum MOTH_STATE
+{
+	IDLE,
+	SELECT,
+	SPEAK
+}
