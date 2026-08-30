@@ -1,1 +1,0 @@
-state = STICK_STATE.IDLE;

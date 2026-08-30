@@ -1,1 +1,0 @@
-state = MOTH_STATE.IDLE;

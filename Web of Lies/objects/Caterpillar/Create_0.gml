@@ -1,1 +1,0 @@
-state = CATER_STATE.IDLE;

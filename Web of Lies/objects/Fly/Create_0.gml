@@ -1,1 +1,0 @@
-state = FLY_STATE.IDLE;
