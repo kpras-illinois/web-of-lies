@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Opc_music",
   "parent":{
-    "name":"Op_Cutscenee",
-    "path":"folders/Op_Cutscenee.yy",
+    "name":"Opening_cutscene",
+    "path":"folders/Opening_cutscene.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

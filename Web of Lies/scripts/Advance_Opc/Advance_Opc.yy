@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Advance_Opc",
   "parent":{
-    "name":"Op_Cutscenee",
-    "path":"folders/Op_Cutscenee.yy",
+    "name":"Opening_cutscene",
+    "path":"folders/Opening_cutscene.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
