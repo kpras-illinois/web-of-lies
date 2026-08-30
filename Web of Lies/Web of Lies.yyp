@@ -44,6 +44,7 @@
     {"id":{"name":"Main_Menu_Button","path":"objects/Main_Menu_Button/Main_Menu_Button.yy",},},
     {"id":{"name":"Main_Menu","path":"objects/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Main_Sound_Helper","path":"objects/Main_Sound_Helper/Main_Sound_Helper.yy",},},
+    {"id":{"name":"Menu_Abstract","path":"objects/Menu_Abstract/Menu_Abstract.yy",},},
     {"id":{"name":"Menu_Sound_Helper","path":"objects/Menu_Sound_Helper/Menu_Sound_Helper.yy",},},
     {"id":{"name":"Mosquito","path":"objects/Mosquito/Mosquito.yy",},},
     {"id":{"name":"Moth","path":"objects/Moth/Moth.yy",},},
