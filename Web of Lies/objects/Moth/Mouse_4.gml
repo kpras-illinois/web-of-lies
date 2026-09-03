@@ -239,7 +239,7 @@ if (room = asset_get_index("Main_Room")) {
 }
 if (room == asset_get_index("Conviction_Room")) {
 	if (room == asset_get_index("Conviction_Room")) {
-	if (global.mosquito_convictable) {
+	if (global.moth_convictable) {
 		room_goto(asset_get_index("Moth_Cutscene"));
 	} else {
 		with (asset_get_index("Dialogue_Helper")) {

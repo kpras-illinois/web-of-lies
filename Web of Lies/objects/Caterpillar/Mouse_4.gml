@@ -128,8 +128,8 @@ if (room == asset_get_index("Main_Room")) {
 }
 if (room == asset_get_index("Conviction_Room")) {
 	if (room == asset_get_index("Conviction_Room")) {
-	if (global.mosquito_convictable) {
-		room_goto(asset_get_index("Mosquito_Cutscene"));
+	if (global.caterpillar_convictable) {
+		room_goto(asset_get_index("Caterpillar_Cutscene"));
 	} else {
 		with (asset_get_index("Dialogue_Helper")) {
 			create_dialogue_box([["Wilber E. Bose", "I don't have enough solid evidence to convict Lola Sang."]]);

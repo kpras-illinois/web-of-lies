@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Object18",
-  "eventList":[],
+  "%Name":"Skip_Button",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object18",
+  "name":"Skip_Button",
   "overriddenProperties":[],
   "parent":{
     "name":"Web of Lies",
     "path":"Web of Lies.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Text_Button",
+    "path":"objects/Text_Button/Text_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"Button_Sprite",
+    "path":"sprites/Button_Sprite/Button_Sprite.yy",
+  },
+  "spriteMaskId":{
+    "name":"Button_Sprite",
+    "path":"sprites/Button_Sprite/Button_Sprite.yy",
+  },
   "visible":true,
 }
