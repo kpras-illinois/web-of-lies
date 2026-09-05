@@ -1,4 +1,5 @@
 dialogue = global.current_dialogue;
+global.dialogue_active = true;
 
 dialogue_index = 0;
 

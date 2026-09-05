@@ -10,4 +10,3 @@ if (groups_loaded_count >= groups_to_load) {
     show_debug_message("All audio groups are fully loaded!");
     room_goto(asset_get_index("Menu_Room"));
 }
-

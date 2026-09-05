@@ -7,15 +7,14 @@ menu_items = [
 menu_functions = [
 function() {
 	with (asset_get_index("Dialogue_Helper")) {
-		create_dialogue_box([["Wilber E. Bose", "No, that's not solid enought to convict."]]);	
+		create_dialogue_box([["Wilber E. Bose", "That evidence should be solid enough to convict Professor Oak!"]]);
+		global.stickbug_convictable = true;
 	}
 	delete_menu();
 },
-
 function() {
 	with (asset_get_index("Dialogue_Helper")) {
-		create_dialogue_box([["Wilber E. Bose", "That evidence should be solid enough to convict Professor Oak!"]]);
-		global.stickbug_convictable = true;
+		create_dialogue_box([["Wilber E. Bose", "No, that's not solid enought to convict."]]);	
 	}
 	delete_menu();
 },

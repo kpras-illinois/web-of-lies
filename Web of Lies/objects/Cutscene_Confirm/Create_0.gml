@@ -9,6 +9,7 @@ button_event = function() {
 			audio_group_stop_all(global.speech_groupid);
 		    instance_destroy(asset_get_index("Dialogue_Box"));
 			instance_deactivate_object(asset_get_index("Next_Button"));
+			global.dialogue_active = false;
 		} else {
 			play_character_voice();
 		}

@@ -10,6 +10,7 @@ button_event = function() {
 		    instance_destroy(asset_get_index("Dialogue_Box"));
 			instance_deactivate_object(asset_get_index("Next_Button"));
 			global.dialogue_finished_event();
+			global.dialogue_active = false;
 		} else {
 			play_character_voice();
 		}

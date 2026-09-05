@@ -1,3 +1,20 @@
+global.spider_dialogue = [
+	[["Wilber E. Bose" , "I'm the detective, you need to click on the suspects."]],
+	[["Wilber E. Bose" , "Can’t you see I'm interrogating suspects here? I’m the detective, stop clicking on me."]],
+	[["Wilber E. Bose" , "Stop."]],
+	[
+		["Wilber E. Bose" , "Heh."],
+		["Wilber E. Bose" , "You're clever, huh?"],
+		["Wilber E. Bose" , "That, or stubborn."],
+		["Wilber E. Bose" , "Guess you figured it out."],
+		["???", "Wilber E. Bose is now convictable!"]
+	]
+];
+global.spider_dialogue_index = 0;
+global.spider_convictable = false;
+
+global.dialogue_active = false;
+
 global.music_groupid = audio_sound_get_audio_group(asset_get_index("Menu_Sound"));
 global.speech_groupid = audio_sound_get_audio_group(asset_get_index("Spider_Voice"));
 
