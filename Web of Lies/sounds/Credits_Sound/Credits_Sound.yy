@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Credits_Sound",
+  "audioGroupId":{
+    "name":"Music",
+    "path":"audiogroups/Music",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":36.780407,
+  "exportDir":"",
+  "name":"Credits_Sound",
+  "parent":{
+    "name":"Web of Lies",
+    "path":"Web of Lies.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Credits_Sound.mp3",
+  "volume":1.0,
+}
