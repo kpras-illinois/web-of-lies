@@ -8,7 +8,7 @@ function Advance_ending(){
         Switch = 0;
         if (scene >= 4) {
             //audio_stop_sound(Main_Sound);
-            room_goto(Credits_Room);
+            room_goto(Menu_Room);
             return;
         }
     }

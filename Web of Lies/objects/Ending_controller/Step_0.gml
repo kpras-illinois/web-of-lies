@@ -7,7 +7,7 @@ if (keyboard_check_pressed(vk_space)) {
 		image = 0;
 		if (scene >= 4) {
 			//audio_stop_sound(Main_Sound);
-            room_goto(Credits_Room);
+			room_goto(asset_get_index(Menu_Room));
 		}
 	}
 }
