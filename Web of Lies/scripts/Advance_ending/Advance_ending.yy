@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Advance_ending",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Advance_ending",
+  "parent":{
+    "name":"Ending_cutscene",
+    "path":"folders/Ending_cutscene.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
